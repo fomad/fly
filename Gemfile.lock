@@ -136,7 +136,7 @@ DEPENDENCIES
   letter_opener
   newrelic_rpm
   pg
-  rails (= 4.0.4)
+  rails (= 4.2.6)
   rails_12factor
   sass-rails (~> 4.0.2)
   sdoc
