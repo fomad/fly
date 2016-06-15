@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.4'
+gem 'rails', '4.2.6'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -36,7 +36,7 @@ end
 gem 'foundation-rails'
 gem 'foundation_rails_helper'
 
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 gem 'newrelic_rpm'
 
