@@ -91,5 +91,5 @@ FlightBooker::Application.configure do
   }
 
 
-  config.action_mailer.default_url_options = { :host => 'http://flight-booker.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://airdp.herokuapp.com' }
 end
