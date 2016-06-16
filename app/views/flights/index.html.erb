@@ -1,8 +1,12 @@
 <% provide(:title, 'Search Flights') %>
-<h1>Flights</h1> 
+<section id="banner">
+<h2>Бронирование авиабилетов</h2>
 
 <%= render 'search' %>
 
 <% if !@flights.none? %>
   <%= render 'search_results' %>
 <% end %>
+	</br>
+				</section>
+		
