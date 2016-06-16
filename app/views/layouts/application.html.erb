@@ -19,16 +19,16 @@
   	<%= stylesheet_link_tag    "application" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= csrf_meta_tags %>
+    <link rel="stylesheet" href="https://html5up.net/uploads/demos/alpha/assets/css/main.css" />
   </head>
 
-  <body>
+<body class="landing">
 
     <%= render 'layouts/header' %>
-    <div class="row">
-      <div class="large-12 columns">
+  <div id="page-wrapper">
         <%= yield %>    
         <p><%= debug(params) if Rails.env.development? %></p>
-      </div>
+      
     </div>   
 
     <%= javascript_include_tag "application" %>
