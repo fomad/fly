@@ -7,7 +7,7 @@ FlightBooker::Application.initialize!
 
 ActionMailer::Base.smtp_settings = {
   :user_name => ENV['SENDGRID_USERNAME'],
-  :mail => ENV['SENDGRID_MAIL'],
+  :password       => ENV['SENDGRID_PASSWORD'],
   :domain => 'heroku.com',
   :address => 'smtp.sendgrid.net',
   :port => 587,
